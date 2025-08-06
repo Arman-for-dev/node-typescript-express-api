@@ -5,8 +5,8 @@ Step 1: Create a new project
 Create a new directory for your project
 
 ```
-mkdir nodejs-typescript-skeleton
-cd nodejs-typescript-skeleton
+mkdir nodejs-typescript-express-api
+cd nodejs-typescript-express-api
 ```
 
 Step 2: Initialize an npm project
@@ -24,7 +24,7 @@ Then create a new folder named src and inside that create a new file named **ind
 Paste the following code directly into that.
 
 ```
-const name = 'faisal'
+const name = 'Arman'
 console.log('this is working');
 ```
 
@@ -50,7 +50,7 @@ also create a typescript configuration file in the root folder named **tsconfig.
 {
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "./build"
   },
   "include": ["src"],
   "exclude": ["node_modules"]
